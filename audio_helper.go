@@ -160,8 +160,7 @@ func (g *Game) handleDiffraction(ray Ray, wall Wall, edge WallEdge, hitPoint Vec
 
 	for i := 0; i < numDiffractedRays; i++ {
 		t := float64(i) / float64(numDiffractedRays-1)
-		angleToWall := 1 - math.Cos(wall.end.x/ray.direction.x)
-		angle := normalizeAngle(math.Atan2(ray.direction.y, ray.direction.x)+(t-0.5)*math.Pi/2) + angleToWall
+		angle := normalizeAngle(math.Atan2(ray.direction.y, ray.direction.x) + (t-0.5)*math.Pi)
 
 		// Calculate intensity considering wall absorption
 		diffractedIntensity := intensity * baseIntensity * (1.0 - wall.properties.absorption)
