@@ -13,5 +13,5 @@ This project is a visual audio ray tracer built using GoLang, Ebiten, and Oto. I
 
 ## Demo
 
-Check out my video of this project on YouTube:
-[YouTube Demo Video coming soon]()
+Check out my video of this project on YouTube:  
+[YouTube Demo Video](https://youtu.be/I08DP0t6FnE?si=pbwEj6bcnqg3ElPm)
