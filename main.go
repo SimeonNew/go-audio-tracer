@@ -234,7 +234,7 @@ func main() {
 			{Vector{240, 900}, Vector{240, 180}, WallProperties{absorption: 0.2, transparency: 0.2, transmissionRoughness: 0.5, roughness: 0.5}},
 			{Vector{400, 750}, Vector{400, 320}, WallProperties{absorption: 0.2, transparency: 0.5, transmissionRoughness: 0.5, roughness: 0.5}},
 		},
-		audioSource:  AudioSource{Vector{600, 535}, sineFreq, 0.5},
+		audioSource:  AudioSource{Vector{1000, 535}, sineFreq, 0.5},
 		listener:     Listener{Vector{800, 535}, Vector{795, 535}, Vector{805, 535}},
 		audioContext: otoCtx,
 		buffer:       make([]byte, 176400),
